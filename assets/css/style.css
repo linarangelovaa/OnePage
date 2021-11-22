@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #2487ce;
+}
+
+a:hover {
+  color: #469fdf;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* HERO DIV START */
+.hero {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../img/hero-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 10vh 0;
+}
+.hero h1 {
+  color: rgb(0, 0, 100);
+  font-weight: 800;
+}
+.hero-inner .row h5 {
+  color: rgb(0, 0, 100);
+}
+
+.hero-inner .row p {
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+}
+
+/* NAVIGATION BAR START */
+.nav-bar {
+  border-bottom: 1px solid rgb(185, 185, 185);
+  font-size: 0.8em;
+}
+
+.nav-bar-inner {
+  align-items: center;
+  line-height: 10vh;
+  height: 10vh;
+}
+
+.nav-bar-inner a {
+  padding: 0 0.5em;
+}
+
+.nav-bar-inner h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 83);
+  font-weight: 400;
+}
+
+/* services */
+.cell {
+  height: 350px;
+}
+
+.bx-basketball {
+  display: flex;
+  justify-content: center;
+  color: lightblue;
+  font-size: 30px;
+}
+.bx-file {
+  display: flex;
+  justify-content: center;
+  color: orange;
+  font-size: 30px;
+}
+.bx-tachometer {
+  display: flex;
+  justify-content: center;
+  color: palevioletred;
+  font-size: 30px;
+}
+.bx-layer-1 {
+  display: flex;
+  justify-content: center;
+  color: gold;
+  font-size: 30px;
+}
+.bx-slideshow {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 30px;
+}
+.bx-arch {
+  display: flex;
+  justify-content: center;
+  color: rgb(43, 226, 211);
+  font-size: 30px;
+}
+/* services kraj */
+/* CTA start */
+.my-btn {
+  border: 2px solid white;
+}
+/* CTA end */
+/*footer*/
+a:hover {
+  text-decoration: none;
+}
+.font {
+  font-family: "Work Sans", sans-serif;
+}
